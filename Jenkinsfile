@@ -3,7 +3,7 @@
         label 'Built-In Node'
     }
     tools {
-        maven 'maven-3.6.3'
+        maven 'M3'
     }
     options {
         buildDiscarder logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '', daysToKeepStr: '30', numToKeepStr: '10')
